@@ -21,6 +21,7 @@ function currentLine(line) {
     while(i <= line.length) {
       if (i === line.length) tmp += (i+1) + ". " + line[i];
         else tmp += (i+1) + ". " + line[i] + ", ";
+      i++;
     }
   }
 }
