@@ -18,7 +18,7 @@ function currentLine(line) {
     var tmp = "The line is currently: ";
     var i = 0;
     
-    while(i <= line.length) {
+    while(i < line.length) {
       if (i === line.length) tmp += (i+1) + ". " + line[i];
         else tmp += (i+1) + ". " + line[i] + ", ";
       i++;
