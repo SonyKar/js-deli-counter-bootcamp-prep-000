@@ -19,7 +19,7 @@ function currentLine(line) {
     var i = 0;
     
     while(i < line.length) {
-      if (i === line.length) tmp += (i+1) + ". " + line[i];
+      if (i === line.length - 1) tmp += (i+1) + ". " + line[i];
         else tmp += (i+1) + ". " + line[i] + ", ";
       i++;
     }
