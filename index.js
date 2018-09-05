@@ -23,5 +23,6 @@ function currentLine(line) {
         else tmp += (i+1) + ". " + line[i] + ", ";
       i++;
     }
+    return tmp;
   }
 }
